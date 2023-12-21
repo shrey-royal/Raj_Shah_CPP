@@ -1,0 +1,11 @@
+CPP: C Plus Plus Programming Language
+The Person Who Build C++ is Bjarne Stroustrup
+
+> Semi Object Oriented Programming Language
+> The file extension of C++ is .cpp
+
+The header file of C++ is iostream: Input Output Stream
+
+iostream : (istream {input stream} + ostream {output stream})
+
+using namespace std; : we will use namespaces in C++ to avoid name conflicts

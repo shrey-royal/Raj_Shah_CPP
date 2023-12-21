@@ -1,0 +1,61 @@
+OOPS (Object Oriented Programming System): It is a paradigm that provides many concepts such as inheritance, data binding, polymorphism etc.
+
+> OOPs is a paradigm to design a program using classes and objects.
+> Using these concepts we can solve any real world Problem.
+> CPP/C++ is a semi object oriented programming system.
+
+> It consists of 4 pillars: 
+    1. Inheritance
+    2. Polymorphism
+    3. Abstraction
+    4. Encapsulation
+
+ALl the topics needs a basic understanding of Objects and Classes
+
+Q What are Objects?
+> Any entity that has state and behaviour is known as an object.
+> Object means a real world entity such as pen, chair, table, jet, bike, etc.
+> Objects can be logical as well as physical entity.
+
+Q What are Classes?
+> Collection of Objects is called a class. it is a logical entity.
+> A Object's class acts as its blueprint
+
+
+Examples of Objects:
+(object) - (class)
+
+1. Car - Vehicle
+2. Smartphone - Electronic Device
+3. Dog - Animal
+4. Plane -  Aircraft
+5. Laptop - Computer
+6. Orange - Fruit
+
+syntax of class: 
+
+class class_name {
+    access_modifiers:
+    //variable / instance variables / data members / class members
+    
+    //methods
+};
+
+for ex:
+class Student {
+    //
+};
+
+syntax of Object: 
+
+class_name obj_name;
+
+for ex:
+Student obj;
+
+
+Access Modifiers: Lets you control the access to the class Members for the objects
+
+public          : accessible everywhere.
+private(default): accessible within the class.
+protected       : accessible within the class as well as in the derived classes.
