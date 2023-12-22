@@ -13,22 +13,22 @@ public:
 int main() {
     Student s;
 
-    printf("\nEnter roll Number: ");
-    scanf("%d", &s.rollNo);
+    cout << "\nEnter roll Number: ";
+    cin >> s.rollNo;
 
-    printf("\nEnter your name: ");
-    scanf("%s", &s.name);   //word
+    cout << "\nEnter your name: ";
+    cin >> s.name;   //word
 
-    printf("\nEnter your grade: ");
-    scanf("%d", &s.grade);
+    cout << "\nEnter your grade: ";
+    cin >> s.grade;
 
-    printf("\nEnter your marks: ");
-    scanf("%f", &s.marks);
+    cout << "\nEnter your marks: ";
+    cin >> s.marks;
     
-    printf("\nRoll No: %d", s.rollNo);
-    printf("\nName: %s", s.name);
-    printf("\nGrade: %d", s.grade);
-    printf("\nMarks: %.2f", s.marks);
+    cout << "\nRoll No: " << s.rollNo;
+    cout << "\nName: " << s.name;
+    cout << "\nGrade: " << s.grade;
+    cout << "\nMarks: " << s.marks;
 
     return 0;
 }
