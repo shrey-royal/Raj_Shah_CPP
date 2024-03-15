@@ -33,4 +33,6 @@ int main() {
 
     e1.display();
     e2.display();
+
+    return 0;
 }
